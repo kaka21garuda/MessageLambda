@@ -11,23 +11,13 @@ import Foundation
 import AVFoundation
 
 class Picture: UIViewController {
-
-    @IBOutlet weak var cameraView: UIView!
-    @IBOutlet weak var nameField: UITextField!
-    
-    
-    @IBAction func takePhoto(_ sender: AnyObject) {
-    
-    }
-    
-    @IBAction func submit(_ sender: AnyObject) {
-        
-    }
     
     var captureSession = AVCaptureSession()
     var stillImageOutput = AVCaptureStillImageOutput()
     //Preview Layer variable so that the user can see the photo they capture
     var previewLayer = AVCaptureVideoPreviewLayer()
+    
+    var profileImage: UIImage!
     
     
     override func viewDidLoad() {
@@ -50,7 +40,7 @@ class Picture: UIViewController {
                             
                             previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
                             //Add some video gravity
-                            previewLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+                            previewLayer.videoGravity = AVLayerVideoGravityResizeAspect
                             //Setup the orientation
                             previewLayer.connection.videoOrientation = AVCaptureVideoOrientation.portrait
                             //Now add on camera view
@@ -72,6 +62,27 @@ class Picture: UIViewController {
         
     }
 
+
+    @IBOutlet weak var cameraView: UIView!
+    @IBOutlet weak var nameField: UITextField!
+    
+    
+    @IBAction func takePhoto(_ sender: AnyObject) {
+        if let videoConnection = stillImageOutput.connection(withMediaType: AVMediaTypeVideo) {
+            stillImageOutput.captureStillImageAsynchronously(from: videoConnection, completionHandler: { (buffer, error) in
+                
+                let imageData = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(buffer)
+                self.profileImage = UIImage(data: imageData!)
+            })
+        }
+    
+    }
+    
+    @IBAction func submit(_ sender: AnyObject) {
+        
+    }
+    
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

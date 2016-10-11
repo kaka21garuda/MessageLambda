@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -105,17 +106,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Bd-kr-M6N">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Bd-kr-M6N">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="180" id="cwx-qK-8Nc"/>
-                                    <constraint firstAttribute="width" constant="180" id="qsQ-kn-scA"/>
+                                    <constraint firstAttribute="height" constant="180" id="3ve-oB-wFb"/>
+                                    <constraint firstAttribute="width" constant="180" id="caf-6c-dxO"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAT-Da-ZPU">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="7cP-k7-Dwm"/>
-                                    <constraint firstAttribute="width" constant="86" id="9oM-lm-9px"/>
+                                    <constraint firstAttribute="width" constant="86" id="Knn-Dx-KIk"/>
+                                    <constraint firstAttribute="height" constant="44" id="YmD-wm-uhp"/>
+                                    <constraint firstAttribute="width" secondItem="wAT-Da-ZPU" secondAttribute="height" multiplier="43:22" id="qzH-oP-SlU"/>
                                 </constraints>
                                 <state key="normal" title="Take Photo"/>
                                 <connections>
@@ -129,8 +131,8 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxp-nA-W9O">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="83" id="euw-wx-LnI"/>
-                                    <constraint firstAttribute="height" constant="39" id="vzf-J5-L2c"/>
+                                    <constraint firstAttribute="width" constant="83" id="12g-eT-ruS"/>
+                                    <constraint firstAttribute="height" constant="39" id="a3D-IE-2mD"/>
                                 </constraints>
                                 <state key="normal" title="Submit"/>
                                 <connections>
@@ -140,15 +142,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="S64-gC-Qbo" firstAttribute="top" secondItem="wAT-Da-ZPU" secondAttribute="bottom" constant="58" id="1Ec-5e-eZZ"/>
-                            <constraint firstItem="S64-gC-Qbo" firstAttribute="top" secondItem="fxp-nA-W9O" secondAttribute="bottom" constant="8" id="EIT-sb-29U"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fxp-nA-W9O" secondAttribute="trailing" constant="9" id="Eqh-x6-bom"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="S64-gC-Qbo" secondAttribute="leading" id="KYv-mH-q9X"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="S64-gC-Qbo" secondAttribute="trailing" id="MFe-8F-RbC"/>
-                            <constraint firstItem="wAT-Da-ZPU" firstAttribute="centerX" secondItem="wkt-WE-60h" secondAttribute="centerX" id="SSg-KM-rFo"/>
-                            <constraint firstItem="9Bd-kr-M6N" firstAttribute="top" secondItem="0Qd-7w-LOd" secondAttribute="bottom" id="WcO-5n-KaP"/>
-                            <constraint firstItem="9Bd-kr-M6N" firstAttribute="centerX" secondItem="wkt-WE-60h" secondAttribute="centerX" id="dod-oc-IRu"/>
-                            <constraint firstItem="wAT-Da-ZPU" firstAttribute="top" secondItem="9Bd-kr-M6N" secondAttribute="bottom" constant="16" id="tGw-aN-maw"/>
+                            <constraint firstItem="9Bd-kr-M6N" firstAttribute="top" secondItem="0Qd-7w-LOd" secondAttribute="bottom" id="4z9-Dg-2NL"/>
+                            <constraint firstItem="S64-gC-Qbo" firstAttribute="top" secondItem="wAT-Da-ZPU" secondAttribute="bottom" constant="58" id="CwI-1t-4QX"/>
+                            <constraint firstItem="wAT-Da-ZPU" firstAttribute="top" secondItem="9Bd-kr-M6N" secondAttribute="bottom" constant="16" id="Fcp-Tg-BEb"/>
+                            <constraint firstItem="S64-gC-Qbo" firstAttribute="top" secondItem="fxp-nA-W9O" secondAttribute="bottom" constant="8" id="Q5P-SQ-yb3"/>
+                            <constraint firstItem="fxp-nA-W9O" firstAttribute="trailing" secondItem="wkt-WE-60h" secondAttribute="trailingMargin" id="UfQ-oh-2qg"/>
+                            <constraint firstItem="wAT-Da-ZPU" firstAttribute="centerX" secondItem="wkt-WE-60h" secondAttribute="centerX" id="UlX-kC-ahl"/>
+                            <constraint firstItem="S64-gC-Qbo" firstAttribute="leading" secondItem="wkt-WE-60h" secondAttribute="leadingMargin" id="nzg-sR-HTg"/>
+                            <constraint firstItem="S64-gC-Qbo" firstAttribute="trailing" secondItem="wkt-WE-60h" secondAttribute="trailingMargin" id="oL1-y3-zOF"/>
+                            <constraint firstItem="9Bd-kr-M6N" firstAttribute="centerX" secondItem="wkt-WE-60h" secondAttribute="centerX" id="qHJ-76-NvK"/>
                         </constraints>
                     </view>
                     <connections>
@@ -158,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aNd-E7-iCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1489" y="124"/>
+            <point key="canvasLocation" x="2097" y="112"/>
         </scene>
     </scenes>
 </document>
