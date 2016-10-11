@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DZc-kt-T6O">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -78,7 +78,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2HP-MD-YGC" id="JAW-wU-Q1C">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -92,6 +92,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKX-Q7-BkG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="636" y="136"/>
+        </scene>
+        <!--Picture-->
+        <scene sceneID="EMB-A3-FAp">
+            <objects>
+                <viewController id="DZc-kt-T6O" customClass="Picture" customModule="Lambda" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Qd-7w-LOd"/>
+                        <viewControllerLayoutGuide type="bottom" id="ulz-xQ-1CS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wkt-WE-60h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Bd-kr-M6N">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="cwx-qK-8Nc"/>
+                                    <constraint firstAttribute="width" constant="180" id="qsQ-kn-scA"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAT-Da-ZPU">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7cP-k7-Dwm"/>
+                                    <constraint firstAttribute="width" constant="86" id="9oM-lm-9px"/>
+                                </constraints>
+                                <state key="normal" title="Take Photo"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="DZc-kt-T6O" eventType="touchUpInside" id="o00-K8-daP"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Display Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S64-gC-Qbo">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxp-nA-W9O">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="euw-wx-LnI"/>
+                                    <constraint firstAttribute="height" constant="39" id="vzf-J5-L2c"/>
+                                </constraints>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submit:" destination="DZc-kt-T6O" eventType="touchUpInside" id="hbq-H6-siN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S64-gC-Qbo" firstAttribute="top" secondItem="wAT-Da-ZPU" secondAttribute="bottom" constant="58" id="1Ec-5e-eZZ"/>
+                            <constraint firstItem="S64-gC-Qbo" firstAttribute="top" secondItem="fxp-nA-W9O" secondAttribute="bottom" constant="8" id="EIT-sb-29U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fxp-nA-W9O" secondAttribute="trailing" constant="9" id="Eqh-x6-bom"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="S64-gC-Qbo" secondAttribute="leading" id="KYv-mH-q9X"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S64-gC-Qbo" secondAttribute="trailing" id="MFe-8F-RbC"/>
+                            <constraint firstItem="wAT-Da-ZPU" firstAttribute="centerX" secondItem="wkt-WE-60h" secondAttribute="centerX" id="SSg-KM-rFo"/>
+                            <constraint firstItem="9Bd-kr-M6N" firstAttribute="top" secondItem="0Qd-7w-LOd" secondAttribute="bottom" id="WcO-5n-KaP"/>
+                            <constraint firstItem="9Bd-kr-M6N" firstAttribute="centerX" secondItem="wkt-WE-60h" secondAttribute="centerX" id="dod-oc-IRu"/>
+                            <constraint firstItem="wAT-Da-ZPU" firstAttribute="top" secondItem="9Bd-kr-M6N" secondAttribute="bottom" constant="16" id="tGw-aN-maw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cameraView" destination="9Bd-kr-M6N" id="KOL-k2-j5o"/>
+                        <outlet property="nameField" destination="S64-gC-Qbo" id="LcM-NI-kwz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aNd-E7-iCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1489" y="124"/>
         </scene>
     </scenes>
 </document>

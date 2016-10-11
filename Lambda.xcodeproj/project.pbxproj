@@ -17,6 +17,7 @@
 		C6060F321DAC664E00B0AAFE /* LambdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F311DAC664E00B0AAFE /* LambdaTests.swift */; };
 		C6060F3D1DAC664E00B0AAFE /* LambdaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */; };
 		C6060F4B1DAC69DF00B0AAFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6060F4A1DAC69DF00B0AAFE /* GoogleService-Info.plist */; };
+		C66611BA1DAD46D900CD5CEE /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66611B91DAD46D900CD5CEE /* Picture.swift */; };
 		EDBE24013961BF03BB7262FD /* Pods_Lambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54976476D1362140C0F84000 /* Pods_Lambda.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaUITests.swift; sourceTree = "<group>"; };
 		C6060F3E1DAC664E00B0AAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6060F4A1DAC69DF00B0AAFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C66611B91DAD46D900CD5CEE /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		E2A1252BFCECF3F9DD6A7295 /* Pods_LambdaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LambdaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDFA0235C9D6BC13108CDEE /* Pods_LambdaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LambdaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 				C6060F4A1DAC69DF00B0AAFE /* GoogleService-Info.plist */,
 				C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */,
 				C6060F1E1DAC664E00B0AAFE /* ViewController.swift */,
+				C66611B91DAD46D900CD5CEE /* Picture.swift */,
 				C6060F201DAC664E00B0AAFE /* Main.storyboard */,
 				C6060F231DAC664E00B0AAFE /* Assets.xcassets */,
 				C6060F251DAC664E00B0AAFE /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 				TargetAttributes = {
 					C6060F181DAC664E00B0AAFE = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TRR5Q7F2CV;
 						ProvisioningStyle = Automatic;
 					};
 					C6060F2C1DAC664E00B0AAFE = {
@@ -450,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C66611BA1DAD46D900CD5CEE /* Picture.swift in Sources */,
 				C6060F1F1DAC664E00B0AAFE /* ViewController.swift in Sources */,
 				C6060F1D1DAC664E00B0AAFE /* AppDelegate.swift in Sources */,
 			);
@@ -604,11 +609,14 @@
 			baseConfigurationReference = 0C661F9D488B44A3AB5EED44 /* Pods-Lambda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TRR5Q7F2CV;
 				INFOPLIST_FILE = Lambda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.Lambda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -617,11 +625,14 @@
 			baseConfigurationReference = 1650545A0A315449D0318250 /* Pods-Lambda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TRR5Q7F2CV;
 				INFOPLIST_FILE = Lambda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.Lambda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
