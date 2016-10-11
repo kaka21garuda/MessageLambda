@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6060F1D1DAC664E00B0AAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */; };
+		C6060F1F1DAC664E00B0AAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F1E1DAC664E00B0AAFE /* ViewController.swift */; };
+		C6060F221DAC664E00B0AAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6060F201DAC664E00B0AAFE /* Main.storyboard */; };
+		C6060F241DAC664E00B0AAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6060F231DAC664E00B0AAFE /* Assets.xcassets */; };
+		C6060F271DAC664E00B0AAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6060F251DAC664E00B0AAFE /* LaunchScreen.storyboard */; };
+		C6060F321DAC664E00B0AAFE /* LambdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F311DAC664E00B0AAFE /* LambdaTests.swift */; };
+		C6060F3D1DAC664E00B0AAFE /* LambdaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6060F2E1DAC664E00B0AAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6060F111DAC664E00B0AAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6060F181DAC664E00B0AAFE;
+			remoteInfo = Lambda;
+		};
+		C6060F391DAC664E00B0AAFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6060F111DAC664E00B0AAFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6060F181DAC664E00B0AAFE;
+			remoteInfo = Lambda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6060F191DAC664E00B0AAFE /* Lambda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lambda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6060F1E1DAC664E00B0AAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6060F211DAC664E00B0AAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6060F231DAC664E00B0AAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6060F261DAC664E00B0AAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6060F281DAC664E00B0AAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6060F2D1DAC664E00B0AAFE /* LambdaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LambdaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6060F311DAC664E00B0AAFE /* LambdaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaTests.swift; sourceTree = "<group>"; };
+		C6060F331DAC664E00B0AAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6060F381DAC664E00B0AAFE /* LambdaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LambdaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaUITests.swift; sourceTree = "<group>"; };
+		C6060F3E1DAC664E00B0AAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6060F161DAC664E00B0AAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6060F2A1DAC664E00B0AAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6060F351DAC664E00B0AAFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6060F101DAC664E00B0AAFE = {
+			isa = PBXGroup;
+			children = (
+				C6060F1B1DAC664E00B0AAFE /* Lambda */,
+				C6060F301DAC664E00B0AAFE /* LambdaTests */,
+				C6060F3B1DAC664E00B0AAFE /* LambdaUITests */,
+				C6060F1A1DAC664E00B0AAFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6060F1A1DAC664E00B0AAFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6060F191DAC664E00B0AAFE /* Lambda.app */,
+				C6060F2D1DAC664E00B0AAFE /* LambdaTests.xctest */,
+				C6060F381DAC664E00B0AAFE /* LambdaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6060F1B1DAC664E00B0AAFE /* Lambda */ = {
+			isa = PBXGroup;
+			children = (
+				C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */,
+				C6060F1E1DAC664E00B0AAFE /* ViewController.swift */,
+				C6060F201DAC664E00B0AAFE /* Main.storyboard */,
+				C6060F231DAC664E00B0AAFE /* Assets.xcassets */,
+				C6060F251DAC664E00B0AAFE /* LaunchScreen.storyboard */,
+				C6060F281DAC664E00B0AAFE /* Info.plist */,
+			);
+			path = Lambda;
+			sourceTree = "<group>";
+		};
+		C6060F301DAC664E00B0AAFE /* LambdaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6060F311DAC664E00B0AAFE /* LambdaTests.swift */,
+				C6060F331DAC664E00B0AAFE /* Info.plist */,
+			);
+			path = LambdaTests;
+			sourceTree = "<group>";
+		};
+		C6060F3B1DAC664E00B0AAFE /* LambdaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */,
+				C6060F3E1DAC664E00B0AAFE /* Info.plist */,
+			);
+			path = LambdaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6060F181DAC664E00B0AAFE /* Lambda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6060F411DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "Lambda" */;
+			buildPhases = (
+				C6060F151DAC664E00B0AAFE /* Sources */,
+				C6060F161DAC664E00B0AAFE /* Frameworks */,
+				C6060F171DAC664E00B0AAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lambda;
+			productName = Lambda;
+			productReference = C6060F191DAC664E00B0AAFE /* Lambda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6060F2C1DAC664E00B0AAFE /* LambdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6060F441DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaTests" */;
+			buildPhases = (
+				C6060F291DAC664E00B0AAFE /* Sources */,
+				C6060F2A1DAC664E00B0AAFE /* Frameworks */,
+				C6060F2B1DAC664E00B0AAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6060F2F1DAC664E00B0AAFE /* PBXTargetDependency */,
+			);
+			name = LambdaTests;
+			productName = LambdaTests;
+			productReference = C6060F2D1DAC664E00B0AAFE /* LambdaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6060F371DAC664E00B0AAFE /* LambdaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6060F471DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaUITests" */;
+			buildPhases = (
+				C6060F341DAC664E00B0AAFE /* Sources */,
+				C6060F351DAC664E00B0AAFE /* Frameworks */,
+				C6060F361DAC664E00B0AAFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6060F3A1DAC664E00B0AAFE /* PBXTargetDependency */,
+			);
+			name = LambdaUITests;
+			productName = LambdaUITests;
+			productReference = C6060F381DAC664E00B0AAFE /* LambdaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6060F111DAC664E00B0AAFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Buka Cakrawala";
+				TargetAttributes = {
+					C6060F181DAC664E00B0AAFE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C6060F2C1DAC664E00B0AAFE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6060F181DAC664E00B0AAFE;
+					};
+					C6060F371DAC664E00B0AAFE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6060F181DAC664E00B0AAFE;
+					};
+				};
+			};
+			buildConfigurationList = C6060F141DAC664E00B0AAFE /* Build configuration list for PBXProject "Lambda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6060F101DAC664E00B0AAFE;
+			productRefGroup = C6060F1A1DAC664E00B0AAFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6060F181DAC664E00B0AAFE /* Lambda */,
+				C6060F2C1DAC664E00B0AAFE /* LambdaTests */,
+				C6060F371DAC664E00B0AAFE /* LambdaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6060F171DAC664E00B0AAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6060F271DAC664E00B0AAFE /* LaunchScreen.storyboard in Resources */,
+				C6060F241DAC664E00B0AAFE /* Assets.xcassets in Resources */,
+				C6060F221DAC664E00B0AAFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6060F2B1DAC664E00B0AAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6060F361DAC664E00B0AAFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6060F151DAC664E00B0AAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6060F1F1DAC664E00B0AAFE /* ViewController.swift in Sources */,
+				C6060F1D1DAC664E00B0AAFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6060F291DAC664E00B0AAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6060F321DAC664E00B0AAFE /* LambdaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6060F341DAC664E00B0AAFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6060F3D1DAC664E00B0AAFE /* LambdaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6060F2F1DAC664E00B0AAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6060F181DAC664E00B0AAFE /* Lambda */;
+			targetProxy = C6060F2E1DAC664E00B0AAFE /* PBXContainerItemProxy */;
+		};
+		C6060F3A1DAC664E00B0AAFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6060F181DAC664E00B0AAFE /* Lambda */;
+			targetProxy = C6060F391DAC664E00B0AAFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6060F201DAC664E00B0AAFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6060F211DAC664E00B0AAFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6060F251DAC664E00B0AAFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6060F261DAC664E00B0AAFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6060F3F1DAC664E00B0AAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6060F401DAC664E00B0AAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6060F421DAC664E00B0AAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lambda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.Lambda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C6060F431DAC664E00B0AAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lambda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.Lambda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C6060F451DAC664E00B0AAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LambdaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.LambdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lambda.app/Lambda";
+			};
+			name = Debug;
+		};
+		C6060F461DAC664E00B0AAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LambdaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.LambdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lambda.app/Lambda";
+			};
+			name = Release;
+		};
+		C6060F481DAC664E00B0AAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LambdaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.LambdaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lambda;
+			};
+			name = Debug;
+		};
+		C6060F491DAC664E00B0AAFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LambdaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.LambdaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lambda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6060F141DAC664E00B0AAFE /* Build configuration list for PBXProject "Lambda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6060F3F1DAC664E00B0AAFE /* Debug */,
+				C6060F401DAC664E00B0AAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6060F411DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "Lambda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6060F421DAC664E00B0AAFE /* Debug */,
+				C6060F431DAC664E00B0AAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6060F441DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6060F451DAC664E00B0AAFE /* Debug */,
+				C6060F461DAC664E00B0AAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6060F471DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6060F481DAC664E00B0AAFE /* Debug */,
+				C6060F491DAC664E00B0AAFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6060F111DAC664E00B0AAFE /* Project object */;
+}
