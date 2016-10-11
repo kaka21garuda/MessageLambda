@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318E6119CBD0237B69D927D4 /* Pods_LambdaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A1252BFCECF3F9DD6A7295 /* Pods_LambdaUITests.framework */; };
+		89AC1BB70D3213806637E81D /* Pods_LambdaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDFA0235C9D6BC13108CDEE /* Pods_LambdaTests.framework */; };
 		C6060F1D1DAC664E00B0AAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */; };
 		C6060F1F1DAC664E00B0AAFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F1E1DAC664E00B0AAFE /* ViewController.swift */; };
 		C6060F221DAC664E00B0AAFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6060F201DAC664E00B0AAFE /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		C6060F271DAC664E00B0AAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6060F251DAC664E00B0AAFE /* LaunchScreen.storyboard */; };
 		C6060F321DAC664E00B0AAFE /* LambdaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F311DAC664E00B0AAFE /* LambdaTests.swift */; };
 		C6060F3D1DAC664E00B0AAFE /* LambdaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */; };
+		C6060F4B1DAC69DF00B0AAFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6060F4A1DAC69DF00B0AAFE /* GoogleService-Info.plist */; };
+		EDBE24013961BF03BB7262FD /* Pods_Lambda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54976476D1362140C0F84000 /* Pods_Lambda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C661F9D488B44A3AB5EED44 /* Pods-Lambda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lambda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lambda/Pods-Lambda.debug.xcconfig"; sourceTree = "<group>"; };
+		0D3ABEF599C13EF5FEA6F5DB /* Pods-LambdaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LambdaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LambdaUITests/Pods-LambdaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		105E09DC55A040C40C35D462 /* Pods-LambdaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LambdaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LambdaUITests/Pods-LambdaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1650545A0A315449D0318250 /* Pods-Lambda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lambda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lambda/Pods-Lambda.release.xcconfig"; sourceTree = "<group>"; };
+		26A18F6E49A9A70CA8ECB98F /* Pods-LambdaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LambdaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LambdaTests/Pods-LambdaTests.release.xcconfig"; sourceTree = "<group>"; };
+		54976476D1362140C0F84000 /* Pods_Lambda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lambda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894560215DD829BC7BD60B50 /* Pods-LambdaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LambdaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LambdaTests/Pods-LambdaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6060F191DAC664E00B0AAFE /* Lambda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lambda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6060F1E1DAC664E00B0AAFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		C6060F381DAC664E00B0AAFE /* LambdaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LambdaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6060F3C1DAC664E00B0AAFE /* LambdaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaUITests.swift; sourceTree = "<group>"; };
 		C6060F3E1DAC664E00B0AAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6060F4A1DAC69DF00B0AAFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2A1252BFCECF3F9DD6A7295 /* Pods_LambdaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LambdaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDFA0235C9D6BC13108CDEE /* Pods_LambdaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LambdaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDBE24013961BF03BB7262FD /* Pods_Lambda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AC1BB70D3213806637E81D /* Pods_LambdaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318E6119CBD0237B69D927D4 /* Pods_LambdaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C0EC68BB954F13B77A1099 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C661F9D488B44A3AB5EED44 /* Pods-Lambda.debug.xcconfig */,
+				1650545A0A315449D0318250 /* Pods-Lambda.release.xcconfig */,
+				894560215DD829BC7BD60B50 /* Pods-LambdaTests.debug.xcconfig */,
+				26A18F6E49A9A70CA8ECB98F /* Pods-LambdaTests.release.xcconfig */,
+				105E09DC55A040C40C35D462 /* Pods-LambdaUITests.debug.xcconfig */,
+				0D3ABEF599C13EF5FEA6F5DB /* Pods-LambdaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CA49A7C1B9AF6BA3D8CDBF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54976476D1362140C0F84000 /* Pods_Lambda.framework */,
+				FBDFA0235C9D6BC13108CDEE /* Pods_LambdaTests.framework */,
+				E2A1252BFCECF3F9DD6A7295 /* Pods_LambdaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6060F101DAC664E00B0AAFE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				C6060F301DAC664E00B0AAFE /* LambdaTests */,
 				C6060F3B1DAC664E00B0AAFE /* LambdaUITests */,
 				C6060F1A1DAC664E00B0AAFE /* Products */,
+				08C0EC68BB954F13B77A1099 /* Pods */,
+				4CA49A7C1B9AF6BA3D8CDBF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +139,7 @@
 		C6060F1B1DAC664E00B0AAFE /* Lambda */ = {
 			isa = PBXGroup;
 			children = (
+				C6060F4A1DAC69DF00B0AAFE /* GoogleService-Info.plist */,
 				C6060F1C1DAC664E00B0AAFE /* AppDelegate.swift */,
 				C6060F1E1DAC664E00B0AAFE /* ViewController.swift */,
 				C6060F201DAC664E00B0AAFE /* Main.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6060F411DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "Lambda" */;
 			buildPhases = (
+				1D6E1B54DB3ECA13B88DFB4B /* [CP] Check Pods Manifest.lock */,
 				C6060F151DAC664E00B0AAFE /* Sources */,
 				C6060F161DAC664E00B0AAFE /* Frameworks */,
 				C6060F171DAC664E00B0AAFE /* Resources */,
+				596DEE13945CE7B4FD4CC0EF /* [CP] Embed Pods Frameworks */,
+				D91D8896CADDD7780BB48EAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6060F441DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaTests" */;
 			buildPhases = (
+				D51130651D1617C8A2170E6A /* [CP] Check Pods Manifest.lock */,
 				C6060F291DAC664E00B0AAFE /* Sources */,
 				C6060F2A1DAC664E00B0AAFE /* Frameworks */,
 				C6060F2B1DAC664E00B0AAFE /* Resources */,
+				8CAABF0ED4882BC02C310426 /* [CP] Embed Pods Frameworks */,
+				F4D450F5C0E39585D9AAF7DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6060F471DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaUITests" */;
 			buildPhases = (
+				91BD8223A2AD692D66A978A5 /* [CP] Check Pods Manifest.lock */,
 				C6060F341DAC664E00B0AAFE /* Sources */,
 				C6060F351DAC664E00B0AAFE /* Frameworks */,
 				C6060F361DAC664E00B0AAFE /* Resources */,
+				C2908A23F43D13093F4F342E /* [CP] Embed Pods Frameworks */,
+				3F013E64FF8DB71A44C653BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6060F271DAC664E00B0AAFE /* LaunchScreen.storyboard in Resources */,
+				C6060F4B1DAC69DF00B0AAFE /* GoogleService-Info.plist in Resources */,
 				C6060F241DAC664E00B0AAFE /* Assets.xcassets in Resources */,
 				C6060F221DAC664E00B0AAFE /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D6E1B54DB3ECA13B88DFB4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F013E64FF8DB71A44C653BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LambdaUITests/Pods-LambdaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596DEE13945CE7B4FD4CC0EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lambda/Pods-Lambda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAABF0ED4882BC02C310426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LambdaTests/Pods-LambdaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91BD8223A2AD692D66A978A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2908A23F43D13093F4F342E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LambdaUITests/Pods-LambdaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51130651D1617C8A2170E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D91D8896CADDD7780BB48EAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lambda/Pods-Lambda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D450F5C0E39585D9AAF7DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LambdaTests/Pods-LambdaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6060F151DAC664E00B0AAFE /* Sources */ = {
@@ -410,6 +601,7 @@
 		};
 		C6060F421DAC664E00B0AAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C661F9D488B44A3AB5EED44 /* Pods-Lambda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lambda/Info.plist;
@@ -422,6 +614,7 @@
 		};
 		C6060F431DAC664E00B0AAFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1650545A0A315449D0318250 /* Pods-Lambda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lambda/Info.plist;
@@ -434,6 +627,7 @@
 		};
 		C6060F451DAC664E00B0AAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894560215DD829BC7BD60B50 /* Pods-LambdaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +642,7 @@
 		};
 		C6060F461DAC664E00B0AAFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26A18F6E49A9A70CA8ECB98F /* Pods-LambdaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +657,7 @@
 		};
 		C6060F481DAC664E00B0AAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105E09DC55A040C40C35D462 /* Pods-LambdaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LambdaUITests/Info.plist;
@@ -475,6 +671,7 @@
 		};
 		C6060F491DAC664E00B0AAFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3ABEF599C13EF5FEA6F5DB /* Pods-LambdaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = LambdaUITests/Info.plist;
@@ -505,6 +702,7 @@
 				C6060F431DAC664E00B0AAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6060F441DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +711,7 @@
 				C6060F461DAC664E00B0AAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6060F471DAC664E00B0AAFE /* Build configuration list for PBXNativeTarget "LambdaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +720,7 @@
 				C6060F491DAC664E00B0AAFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
