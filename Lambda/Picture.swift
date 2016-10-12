@@ -9,6 +9,10 @@
 import UIKit
 import Foundation
 import AVFoundation
+import Firebase
+import FirebaseAuth
+import FirebaseStorage
+import FirebaseDatabase
 
 class Picture: UIViewController {
     
@@ -80,6 +84,36 @@ class Picture: UIViewController {
     
     @IBAction func submit(_ sender: AnyObject) {
         
+        if nameField.text != nil && profileImage != nil {
+        
+        let storageRef = FIRStorage.storage().reference()
+        let databaseRef = FIRDatabase.database().reference()
+        //User Identification
+        let uid = FIRAuth.auth()?.currentUser?.uid
+        
+        let profileImageData = UIImageJPEGRepresentation(profileImage, 0.4)
+        
+        let profileImageRef = storageRef.child("ProfileImages/\(uid)/profileImage.jpg")
+        profileImageRef.put(profileImageData!, metadata: nil) {
+            metadata, error in
+            
+            if error != nil {
+                print(error)
+            } else {
+                let downloadURL = metadata?.downloadURL()
+                let userName = self.nameField.text
+                
+                let user: [NSObject: AnyObject] = ["uid" as NSObject: uid as AnyObject,
+                                                   "username" as NSObject: userName as AnyObject,
+                                                   "profileImageURL" as NSObject: downloadURL as AnyObject]
+                //Specific Paths that all objects are going to be added.
+                let childUpdates = ["Users/\(uid)/" : user]
+                //Lastly, to get all the stuff uploaded to the Firebase
+                databaseRef.updateChildValues(childUpdates)
+            }
+        
+            }
+        }
     }
     
    
