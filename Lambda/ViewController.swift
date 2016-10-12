@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import FirebaseDatabase
 
 
 class ViewController: UIViewController {
@@ -38,9 +39,28 @@ class ViewController: UIViewController {
             if error != nil {
                 print(error)
             } else {
-                var vc = self.storyboard?.instantiateViewController(withIdentifier: "Profile")
-                self.present(vc!, animated: true, completion: nil)
+                
+                let uid = FIRAuth.auth()?.currentUser?.uid
+                
+                let databaseRef = FIRDatabase.database().reference()
+                //Checking in the database wether we have the current profile images or not.
+                databaseRef.child("users").child(uid!).observe(.value, with: { (snapshot) in
+                    //in this case we will grabbing the user's name and testing wether it is actually their or not.
+                    if snapshot.childrenCount == 0 {
+                        //Go to Picture scene to set up user's profile
+                        var vc = self.storyboard?.instantiateViewController(withIdentifier: "Picture")
+                        self.present(vc!, animated: true, completion: nil)
+
+                        
+                    } else {
+                        
+                        var vc = self.storyboard?.instantiateViewController(withIdentifier: "Profile")
+                        self.present(vc!, animated: true, completion: nil)
+                    }
+                })
+                
             }
+            
         })
     }
 

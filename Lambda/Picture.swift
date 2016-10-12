@@ -112,7 +112,7 @@ class Picture: UIViewController {
                 databaseRef.updateChildValues(childUpdates)
             }
         
-            }
+                }
         }
     }
     
